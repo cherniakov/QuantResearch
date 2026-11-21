@@ -1,0 +1,9 @@
+[submodule "external/FinamPy"]
+	path = external/FinamPy
+	url = https://github.com/cia76/FinamPy.git
+[submodule "external/MOEXPy"]
+	path = external/MOEXPy
+	url = https://github.com/cia76/MOEXPy.git
+[submodule "external/FinLabPy"]
+	path = external/FinLabPy
+	url = https://github.com/cia76/FinLabPy.git
