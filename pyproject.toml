@@ -16,6 +16,7 @@ dependencies = [
     "moexpy",
     "mplfinance>=0.12.10b0",
     "pandas>=3.1.1",
+    "python-dotenv>=1.2.4",
     "scipy>=1.18.1",
     "yadisk>=3.4.1",
 ]
