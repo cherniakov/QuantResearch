@@ -6,7 +6,19 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+    "aiogram>=3.33.0",
     "backtrader==1.9.78.123",
+    "discord-py>=2.7.1",
+    "finampy",
+    "lightweight-charts>=2.1",
+    "matplotlib>=3.11.2",
+    "maxapi>=1.2.4",
+    "moexpy",
+    "mplfinance>=0.12.10b0",
+    "pandas>=3.1.1",
+    "python-dotenv>=1.2.4",
+    "scipy>=1.18.1",
+    "yadisk>=3.4.1",
 ]
 
 [build-system]
@@ -16,3 +28,7 @@ build-backend = "setuptools.build_meta"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["quant_research*"]
+
+[tool.uv.sources]
+finampy = { path = "external/FinamPy", editable = true }
+moexpy = { path = "external/MOEXPy", editable = true }
