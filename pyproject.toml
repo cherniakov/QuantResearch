@@ -5,7 +5,9 @@ authors = [
     { name = "Aleksei Cherniakov", email = "aleksei.cherniakov@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "backtrader==1.9.78.123",
+]
 
 [build-system]
 requires = ["setuptools>=61"]
