@@ -39,3 +39,5 @@ backtest_results/
 # Logs
 *.log
 logs/
+# Биржевые данные
+/external/Data/
