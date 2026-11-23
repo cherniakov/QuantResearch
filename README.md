@@ -8,6 +8,10 @@
 
 **[Инструкция по установке и запуску QuantResearch](docs/installation.md)**
 
+## Работа с JupyterLab
+
+[Руководство по работе с JupyterLab и Jupyter Notebook](docs/jupyterlab.md)
+
 ## Основные компоненты
 
 - **Backtrader** — разработка и бэктестинг торговых стратегий.
