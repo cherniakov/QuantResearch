@@ -716,6 +716,37 @@ requires-dist = [
 ]
 
 [[package]]
+name = "finlabpy"
+version = "0.1.0"
+source = { editable = "external/FinLabPy" }
+dependencies = [
+    { name = "aiogram" },
+    { name = "backtrader" },
+    { name = "discord-py" },
+    { name = "lightweight-charts" },
+    { name = "matplotlib" },
+    { name = "maxapi" },
+    { name = "mplfinance" },
+    { name = "pandas" },
+    { name = "scipy" },
+    { name = "yadisk" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "aiogram" },
+    { name = "backtrader" },
+    { name = "discord-py" },
+    { name = "lightweight-charts" },
+    { name = "matplotlib" },
+    { name = "maxapi" },
+    { name = "mplfinance" },
+    { name = "pandas" },
+    { name = "scipy" },
+    { name = "yadisk" },
+]
+
+[[package]]
 name = "fonttools"
 version = "4.68.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2078,6 +2109,7 @@ dependencies = [
     { name = "backtrader" },
     { name = "discord-py" },
     { name = "finampy" },
+    { name = "finlabpy" },
     { name = "lightweight-charts" },
     { name = "matplotlib" },
     { name = "maxapi" },
@@ -2095,6 +2127,7 @@ requires-dist = [
     { name = "backtrader", specifier = "==1.9.78.123" },
     { name = "discord-py", specifier = ">=2.7.1" },
     { name = "finampy", editable = "external/FinamPy" },
+    { name = "finlabpy", editable = "external/FinLabPy" },
     { name = "lightweight-charts", specifier = ">=2.1" },
     { name = "matplotlib", specifier = ">=3.11.2" },
     { name = "maxapi", specifier = ">=1.2.4" },
