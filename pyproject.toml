@@ -10,6 +10,7 @@ dependencies = [
     "backtrader==1.9.78.123",
     "discord-py>=2.7.1",
     "finampy",
+    "finlabpy",
     "lightweight-charts>=2.1",
     "matplotlib>=3.11.2",
     "maxapi>=1.2.4",
@@ -31,4 +32,5 @@ include = ["quant_research*"]
 
 [tool.uv.sources]
 finampy = { path = "external/FinamPy", editable = true }
+finlabpy = { path = "external/FinLabPy", editable = true }
 moexpy = { path = "external/MOEXPy", editable = true }
