@@ -43,3 +43,4 @@ logs/
 /external/Data/
 
 /Data/
+**/backtest_report.html
